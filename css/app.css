@@ -1,0 +1,1395 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@100;200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Sarabun', sans-serif;
+}
+
+.color-success {
+  color: #2ecc71 !important;
+}
+
+.color-warning {
+  color: #f1c40f !important;
+}
+
+.color-danger {
+  color: #e74c3c !important;
+}
+
+.color-info {
+  color: #3498db !important;
+}
+
+.lb-control {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 10px 20px;
+}
+
+.btn:hover {
+  opacity: .6;
+}
+
+.btn-success {
+  background: #2ecc71;
+  color: #fff;
+  margin: 10px;
+}
+
+.btn-warning {
+  background: #f1c40f;
+  color: #333;
+  margin: 10px;
+}
+
+.btn-danger {
+  background: #e74c3c;
+  color: #fff;
+  margin: 10px;
+}
+
+.btn-info {
+  background: #3498db;
+  color: #fff;
+  margin: 10px;
+}
+
+.btn-upload {
+  background: #2ecc71;
+  color: #fff;
+  margin: 10px;
+}
+
+.btn-edit {
+  background: #f1c40f;
+  color: #333;
+  margin: 10px;
+}
+
+.btn-delete {
+  background: #e74c3c;
+  color: #fff;
+  margin: 10px;
+}
+
+.index {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(125deg, #b71540, #000);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.index .index-home {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.index .index-home .index-home-logo {
+  width: 25%;
+  height: 25%;
+}
+
+.index .index-home .index-home-logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.index .index-home .index-title-main {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.index .index-home .index-title-sub {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.index .index-home .index-home-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 0;
+}
+
+.index .index-home .index-home-btn .btn-student {
+  width: 200px;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  border: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  padding: 10px 0;
+  background: #f1c40f;
+  color: #333;
+  margin: 0 10px;
+}
+
+.index .index-home .index-home-btn .btn-student:hover {
+  opacity: .8;
+}
+
+.index .index-home .index-home-btn .btn-student i {
+  font-size: 3rem;
+  margin: 10px;
+}
+
+.index .index-home .index-home-btn .btn-teacher {
+  width: 200px;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  border: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  padding: 10px 0;
+  background: #e74c3c;
+  color: #fff;
+  margin: 0 10px;
+}
+
+.index .index-home .index-home-btn .btn-teacher i {
+  font-size: 3rem;
+  margin: 10px;
+}
+
+.index .index-home .index-home-btn .btn-teacher:hover {
+  opacity: .8;
+}
+
+.register {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-image: linear-gradient(125deg, #b71540, #000);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0;
+}
+
+.register .card-header {
+  width: 80%;
+  padding: 20px;
+  height: 60px;
+  background: #333;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.register .card-header .card-header-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+}
+
+.register .card-header .card-header-logo .header-logo {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+}
+
+.register .card-header .card-header-logo .header-logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.register .card-header .card-header-system {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.register .card {
+  width: 80%;
+  background: #fff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.register .card .telAdmin {
+  width: 70%;
+  padding: 20px;
+  color: #333;
+  background: #f1c40f;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.register .card .lb-form-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
+
+.register .card .lb-form-control .lb-items-control {
+  margin: 10px 0;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.register .card .lb-form-control .lb-items-control p {
+  font-weight: 300;
+}
+
+.register .card .tableResponsive {
+  width: 100%;
+  overflow: auto;
+}
+
+.register .card .tableResponsive .tableCheckin {
+  width: 100%;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+.register .card .tableResponsive .tableCheckin tr th {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+.register .card .tableResponsive .tableCheckin tr .th-date {
+  max-width: 30px;
+  height: 90px;
+}
+
+.register .card .tableResponsive .tableCheckin tr td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+.register .card .tableResponsive .tableCheckin tr td .chkCheckin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.register .card .card-reason {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.register .card .card-reason .search-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.register .card .card-reason .search-control .search-control-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.register .card .card-reason .search-control .search-control-label label {
+  margin-right: 10px;
+}
+
+.register .card .card-reason .search-control .search-control-label label:last-child {
+  font-size: .9rem;
+}
+
+.register .card .card-reason .search-control .search-form {
+  padding: 10px;
+  width: 200px;
+  font-size: 1.3rem;
+}
+
+.register .card .card-reason .search-control .sel-filter {
+  font-size: 1rem;
+  padding: 5px;
+  width: 30%;
+}
+
+.register .card .card-club {
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.register .card .card-club thead tr th {
+  background: #333;
+  color: #f1c40f;
+  padding: 10px;
+}
+
+.register .card .card-club tbody tr td {
+  padding: 10px;
+}
+
+.register .card .card-club tbody tr td:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.register .card .card-club tbody tr:nth-child(odd) {
+  background: #e5e5e5;
+}
+
+.register .card .card-status {
+  margin: 50px 0;
+}
+
+.register .card .card-status .pass {
+  font-size: 7rem;
+  color: #2ecc71;
+}
+
+.register .card .card-status .fail {
+  font-size: 7rem;
+  color: #e74c3c;
+}
+
+.register .card .timer-wait {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.register .card .timer-wait .progress-bar {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.register .card .timer-wait .a-check-club {
+  color: #e74c3c;
+  font-size: 1.3rem;
+  margin: 10px;
+}
+
+.register .card .timer-done {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.register .card .timer-done .sel-club {
+  padding: 10px;
+  width: 100%;
+  font-size: 1.2rem;
+  margin: 40px 0;
+}
+
+.register .card .timer-done .btn-control-row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.register .card .card-control-1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px 0;
+}
+
+.register .card .card-control-1 .txt-data {
+  padding: 5px 10px;
+  font-size: 1rem;
+}
+
+.register .card .card-control-2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 10px 0;
+}
+
+.register .card .card-control-2 .card-control {
+  width: 48%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.register .card .card-control-2 .card-control .txt-data {
+  padding: 5px 10px;
+  font-size: 1rem;
+}
+
+.register .card .card-control-3 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px 0;
+}
+
+.register .card .card-control-3 .sel-data {
+  padding: 5px 10px;
+  font-size: 1rem;
+}
+
+.register .card .card-control-4 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 10px 0;
+}
+
+.register .card .card-control-4 .card-control {
+  width: 48%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.register .card .card-control-4 .card-control .sel-data {
+  padding: 5px 10px;
+  font-size: 1rem;
+}
+
+.register .card .space {
+  width: 100%;
+  margin: 25px 0;
+}
+
+.register .card .btn-control-row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background: #f1c40f;
+  color: #333;
+}
+
+footer p {
+  width: 100%;
+  text-align: center;
+  font-size: .7rem;
+}
+
+footer p a {
+  color: #333;
+  text-decoration: none;
+  cursor: auto;
+}
+
+/* teacher pages */
+.teacher-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.teacher-login .passcode {
+  padding: 5px 10px;
+  font-size: 1rem;
+}
+
+/* loading page */
+@-webkit-keyframes ldio-abebizowwe5 {
+  0% {
+    top: 96px;
+    left: 96px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 18px;
+    left: 18px;
+    width: 156px;
+    height: 156px;
+    opacity: 0;
+  }
+}
+@keyframes ldio-abebizowwe5 {
+  0% {
+    top: 96px;
+    left: 96px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 18px;
+    left: 18px;
+    width: 156px;
+    height: 156px;
+    opacity: 0;
+  }
+}
+
+.ldio-abebizowwe5 div {
+  position: absolute;
+  border-width: 4px;
+  border-style: solid;
+  opacity: 1;
+  border-radius: 50%;
+  -webkit-animation: ldio-abebizowwe5 3.33333s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+          animation: ldio-abebizowwe5 3.33333s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.ldio-abebizowwe5 div:nth-child(1) {
+  border-color: #ff312d;
+}
+
+.ldio-abebizowwe5 div:nth-child(2) {
+  border-color: #f5c037;
+  -webkit-animation-delay: -1.6666666666666667s;
+          animation-delay: -1.6666666666666667s;
+}
+
+.loadingio-spinner-ripple-cs0r6su1glk {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: #fff;
+}
+
+.ldio-abebizowwe5 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-transform: translateZ(0) scale(1);
+          transform: translateZ(0) scale(1);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  /* see note above */
+}
+
+.ldio-abebizowwe5 div {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+/* generated by https://loading.io/ */
+/*-------- Progress bar -----------------*/
+.sb-progress {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  height: 15px;
+  width: 100%;
+}
+
+.sb-progress::-webkit-progress-bar, .sb-progress::-webkit-progress-value {
+  border-radius: 3px;
+}
+
+.sb-progress--green::-webkit-progress-bar {
+  background-color: #c8e6c9;
+}
+
+.sb-progress--green::-webkit-progress-value {
+  background-color: #66bb6a;
+}
+
+.sb-progress--red::-webkit-progress-bar {
+  background-color: #ffcdd2;
+}
+
+.sb-progress--red::-webkit-progress-value {
+  background-color: #ef5350;
+}
+
+.sb-progress--blue::-webkit-progress-bar {
+  background-color: #c5cae9;
+}
+
+.sb-progress--blue::-webkit-progress-value {
+  background-color: #5c6bc0;
+}
+
+.sb-progress--orange::-webkit-progress-bar {
+  background-color: #ffe0b2;
+}
+
+.sb-progress--orange::-webkit-progress-value {
+  background-color: #ffa726;
+}
+
+/*-------------------------------*/
+.admin-container {
+  max-width: 1200px;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.admin-container .admin-nav {
+  width: 20%;
+}
+
+.admin-container .admin-nav h4 {
+  color: #95a5a6;
+  margin-bottom: 5px;
+}
+
+.admin-container .admin-nav .admin-nav-logo {
+  width: 100px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.admin-container .admin-nav .admin-nav-logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.admin-container .admin-nav .admin-nav-dashboard li {
+  list-style: none;
+  line-height: 25px;
+}
+
+.admin-container .admin-nav .admin-nav-dashboard li a {
+  color: #3498db;
+}
+
+.admin-container .admin-dashboard {
+  width: 80%;
+}
+
+.admin-container .admin-dashboard .check-insert-student-1 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+  background: #f7f7f7;
+  padding: 10px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.admin-container .admin-dashboard .check-insert-student-1 .sel-insert {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 50%;
+  margin: 10px;
+}
+
+.admin-container .admin-dashboard .check-insert-student-1 .cis-row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.admin-container .admin-dashboard .check-insert-student-2 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+  background: #f7f7f7;
+  padding: 10px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.admin-container .admin-dashboard .check-insert-student-2 .sel-insert {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 50%;
+  margin: 10px;
+}
+
+.admin-container .admin-dashboard .check-insert-student-2 .cis-row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.admin-container .admin-dashboard .search-std-card {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+  background: #f7f7f7;
+  padding: 10px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.admin-container .admin-dashboard .search-std-card input[type=search] {
+  font-size: 1rem;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+}
+
+.admin-container .admin-dashboard .search-std-card .search-std-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.admin-container .admin-dashboard .search-std-card .search-std-control .sel-std-search {
+  border: 1px solid #e5e5e5;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+  width: 49%;
+}
+
+.admin-container .admin-dashboard .btn-manage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.admin-container .admin-dashboard h4 {
+  color: #95a5a6;
+}
+
+.admin-container .admin-dashboard h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 10px;
+}
+
+.admin-container .admin-dashboard table {
+  width: 100%;
+  text-align: center;
+}
+
+.admin-container .admin-dashboard table thead tr th:last-child {
+  width: 180px;
+}
+
+.admin-container .admin-dashboard table thead tr .img {
+  width: 40%;
+}
+
+.admin-container .admin-dashboard table thead tr .btn-action {
+  width: 20%;
+}
+
+.admin-container .admin-dashboard table tbody tr .img img {
+  width: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 auto;
+}
+
+.admin-container .admin-dashboard table tbody tr td:last-child {
+  width: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.admin-container .admin-dashboard table tbody tr:nth-child(odd) {
+  background: #f7f7f7;
+}
+
+.admin-container .admin-dashboard .form-control-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.admin-container .admin-dashboard .form-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.admin-container .admin-dashboard .form-control h3 {
+  margin-top: 30px;
+}
+
+.admin-container .admin-dashboard .form-control .form-control-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.admin-container .admin-dashboard .form-control .form-control-col .form-control-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.admin-container .admin-dashboard .form-control .form-control-col .form-control-row p {
+  width: 20%;
+}
+
+.admin-container .admin-dashboard .form-control .form-control-skill {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.admin-container .admin-dashboard .form-control .form-control-skill .form-control-items {
+  margin-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.admin-container .admin-dashboard .form-control .form-control-skill .form-control-items .chk-content {
+  width: 20px;
+  height: 20px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.admin-container .admin-dashboard .form-control .form-control-skill .form-control-items .img-items {
+  width: 50px;
+  height: 50px;
+}
+
+.admin-container .admin-dashboard .form-control .form-control-skill .form-control-items .img-items img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.admin-container .admin-dashboard .form-control label {
+  margin: 10px 0;
+}
+
+.admin-container .admin-dashboard .form-control .txt-content {
+  width: 50%;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.admin-container .admin-dashboard .form-control .sel-content {
+  width: 52%;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.admin-container .admin-dashboard .form-control .form-upload {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px 0;
+}
+
+.admin-container .admin-dashboard .form-control .form-upload label {
+  height: 35px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  background: #f1c40f;
+  color: #333;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: relative;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.admin-container .admin-dashboard .form-control .form-upload label:hover {
+  opacity: 0.7;
+}
+
+.admin-container .admin-dashboard .form-control .form-upload label .file-upload {
+  position: absolute;
+  left: -9999px;
+}
+
+.admin-container .admin-dashboard .form-control .form-upload p {
+  margin-left: 20px;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .index .index-home .index-home-logo {
+    width: 200px;
+    height: 200px;
+  }
+  .tableCheckin {
+    overflow-x: auto;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .register {
+    height: auto;
+  }
+  .register .card-header .card-header-logo .header-logo {
+    width: 50px;
+    height: 50px;
+  }
+  .register .card-header .card-header-logo .header-title h1 {
+    font-size: 1.4rem;
+  }
+  .register .card-header .card-header-logo .header-title h3 {
+    font-size: 1rem;
+  }
+  .register .card-header .card-header-system {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .register .card-header .card-header-system h2 {
+    font-size: 1rem;
+  }
+  .register .card-header .card-header-system h4 {
+    font-size: .8rem;
+  }
+  .register .card .lb-form-control {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .register .card .lb-form-control .lb-items-control {
+    width: 100%;
+  }
+  .register .card .lb-form-control .lb-items-control h3 {
+    text-align: left;
+  }
+  .register .card .card-reason h3 {
+    text-align: left;
+  }
+  .register .card .card-club thead tr th {
+    font-size: .7rem;
+  }
+  .register .card .card-club tbody tr td {
+    font-size: .7rem;
+  }
+  .register .card h1 {
+    font-size: 1.4rem;
+  }
+  .register .card h3 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .register .card .sel-club {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .index .index-home .index-home-logo {
+    width: 100px;
+    height: 100px;
+  }
+  .index .index-home .index-title-main {
+    font-size: 1.2rem;
+  }
+  .index .index-home .index-title-sub {
+    font-size: .8rem;
+  }
+  .index .index-home .index-home-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .index .index-home .index-home-btn .btn-student, .index .index-home .index-home-btn .btn-teacher {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 200px;
+    height: 25px;
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  .index .index-home .index-home-btn .btn-student i, .index .index-home .index-home-btn .btn-teacher i {
+    font-size: 1rem;
+  }
+  .register {
+    height: auto;
+  }
+  .register .card-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+  }
+  .register .card-header .card-header-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .register .card-header .card-header-logo .header-logo {
+    margin: 0 0 5px 0;
+    width: 50px;
+    height: 50px;
+  }
+  .register .card-header .card-header-logo .header-title h1 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .register .card-header .card-header-logo .header-title h3 {
+    font-size: .6rem;
+    text-align: center;
+  }
+  .register .card-header .card-header-system {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .register .card-header .card-header-system h2 {
+    font-size: .7rem;
+    text-align: center;
+  }
+  .register .card-header .card-header-system h4 {
+    font-size: .5rem;
+    text-align: center;
+  }
+  .register .card .card-reason .search-control {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .register .card .card-reason .search-control .search-control-label {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .register .card .card-reason .search-control .search-form {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  .register .card .card-reason h3 {
+    font-size: .8rem;
+    text-align: left;
+  }
+  .register .card .card-club thead tr th {
+    font-size: .7rem;
+  }
+  .register .card .card-club tbody tr td {
+    font-size: .7rem;
+  }
+  .register .card h1 {
+    font-size: 1.2rem;
+  }
+  .register .card h3 {
+    font-size: .8rem;
+    text-align: center;
+  }
+  .register .card .timer-wait .a-check-club {
+    font-size: .8rem;
+    text-align: center;
+  }
+  .register .card .timer-wait .progress-bar {
+    width: 100%;
+  }
+  .register .card .timer-wait .progress-bar .sb-progress {
+    width: 100%;
+  }
+  .register .card .timer-done {
+    width: 100%;
+  }
+  .register .card .timer-done .sel-club {
+    width: 80%;
+  }
+  .register .card .btn-control-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+/*# sourceMappingURL=app.css.map */
